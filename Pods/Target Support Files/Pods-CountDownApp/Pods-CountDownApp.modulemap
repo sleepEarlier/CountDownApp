@@ -1,0 +1,6 @@
+module Pods_CountDownApp {
+  umbrella header "Pods-CountDownApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

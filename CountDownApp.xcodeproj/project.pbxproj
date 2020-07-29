@@ -9,10 +9,21 @@
 /* Begin PBXBuildFile section */
 		194DF59624C19E4D003890AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194DF59524C19E4D003890AF /* AppDelegate.swift */; };
 		194DF59824C19E4D003890AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194DF59724C19E4D003890AF /* SceneDelegate.swift */; };
-		194DF59A24C19E4D003890AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194DF59924C19E4D003890AF /* ViewController.swift */; };
 		194DF59D24C19E4D003890AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 194DF59B24C19E4D003890AF /* Main.storyboard */; };
 		194DF59F24C19E4F003890AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194DF59E24C19E4F003890AF /* Assets.xcassets */; };
 		194DF5A224C19E4F003890AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 194DF5A024C19E4F003890AF /* LaunchScreen.storyboard */; };
+		194DF5AA24C1A004003890AF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194DF5A924C1A004003890AF /* AppCoordinator.swift */; };
+		194DF5AC24C54D21003890AF /* EventListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194DF5AB24C54D21003890AF /* EventListCoordinator.swift */; };
+		194DF5B024C54E09003890AF /* EventListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194DF5AF24C54E09003890AF /* EventListController.swift */; };
+		194DF5B224C5770D003890AF /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194DF5B124C5770D003890AF /* UIColor+Extension.swift */; };
+		194DF5B824C57BAA003890AF /* EventsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 194DF5B624C57BAA003890AF /* EventsApp.xcdatamodeld */; };
+		194DF5BA24C57C72003890AF /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194DF5B924C57C72003890AF /* CoreDataManager.swift */; };
+		194DF5BC24C6D851003890AF /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194DF5BB24C6D851003890AF /* EventListViewModel.swift */; };
+		19DD6AE224C6DAFE007A0A10 /* AddEventCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DD6AE124C6DAFE007A0A10 /* AddEventCoordinator.swift */; };
+		19DD6AE424C6DE76007A0A10 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DD6AE324C6DE76007A0A10 /* AddEventViewController.swift */; };
+		19DD6AE624C6DF69007A0A10 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DD6AE524C6DF69007A0A10 /* UIViewController+Extension.swift */; };
+		19DD6AE824C6E4E7007A0A10 /* AddEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DD6AE724C6E4E7007A0A10 /* AddEventViewModel.swift */; };
+		19DD6C9424C7EA43007A0A10 /* AddEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DD6C9324C7EA43007A0A10 /* AddEventTableViewCell.swift */; };
 		C9A1A47FDBD0AC6389F06C19 /* libPods-CountDownApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EB07D22F9917AAB0AD3B09 /* libPods-CountDownApp.a */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +31,22 @@
 		194DF59224C19E4C003890AF /* CountDownApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountDownApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		194DF59524C19E4D003890AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		194DF59724C19E4D003890AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		194DF59924C19E4D003890AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		194DF59C24C19E4D003890AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		194DF59E24C19E4F003890AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		194DF5A124C19E4F003890AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		194DF5A324C19E4F003890AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		194DF5A924C1A004003890AF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		194DF5AB24C54D21003890AF /* EventListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListCoordinator.swift; sourceTree = "<group>"; };
+		194DF5AF24C54E09003890AF /* EventListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListController.swift; sourceTree = "<group>"; };
+		194DF5B124C5770D003890AF /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		194DF5B724C57BAA003890AF /* EventsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventsApp.xcdatamodel; sourceTree = "<group>"; };
+		194DF5B924C57C72003890AF /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		194DF5BB24C6D851003890AF /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
+		19DD6AE124C6DAFE007A0A10 /* AddEventCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventCoordinator.swift; sourceTree = "<group>"; };
+		19DD6AE324C6DE76007A0A10 /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		19DD6AE524C6DF69007A0A10 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		19DD6AE724C6E4E7007A0A10 /* AddEventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewModel.swift; sourceTree = "<group>"; };
+		19DD6C9324C7EA43007A0A10 /* AddEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventTableViewCell.swift; sourceTree = "<group>"; };
 		5368AA7A36765C14AB8C3256 /* Pods-CountDownApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDownApp.release.xcconfig"; path = "Target Support Files/Pods-CountDownApp/Pods-CountDownApp.release.xcconfig"; sourceTree = "<group>"; };
 		E24E283515F7F16644121BCB /* Pods-CountDownApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDownApp.debug.xcconfig"; path = "Target Support Files/Pods-CountDownApp/Pods-CountDownApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E7EB07D22F9917AAB0AD3B09 /* libPods-CountDownApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CountDownApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,15 +85,74 @@
 		194DF59424C19E4C003890AF /* CountDownApp */ = {
 			isa = PBXGroup;
 			children = (
+				19DD6C9224C7EA21007A0A10 /* Cells */,
+				19DD6AE024C6DAE9007A0A10 /* ViewModel */,
+				19DD6ADF24C6DAE0007A0A10 /* Data */,
+				194DF5B524C57B3C003890AF /* Controllers */,
+				194DF5B424C57B32003890AF /* Coordinators */,
+				194DF5B324C57B26003890AF /* Extensions */,
 				194DF59524C19E4D003890AF /* AppDelegate.swift */,
 				194DF59724C19E4D003890AF /* SceneDelegate.swift */,
-				194DF59924C19E4D003890AF /* ViewController.swift */,
 				194DF59B24C19E4D003890AF /* Main.storyboard */,
 				194DF59E24C19E4F003890AF /* Assets.xcassets */,
 				194DF5A024C19E4F003890AF /* LaunchScreen.storyboard */,
 				194DF5A324C19E4F003890AF /* Info.plist */,
+				194DF5B624C57BAA003890AF /* EventsApp.xcdatamodeld */,
 			);
 			path = CountDownApp;
+			sourceTree = "<group>";
+		};
+		194DF5B324C57B26003890AF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				194DF5B124C5770D003890AF /* UIColor+Extension.swift */,
+				19DD6AE524C6DF69007A0A10 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		194DF5B424C57B32003890AF /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				194DF5A924C1A004003890AF /* AppCoordinator.swift */,
+				194DF5AB24C54D21003890AF /* EventListCoordinator.swift */,
+				19DD6AE124C6DAFE007A0A10 /* AddEventCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		194DF5B524C57B3C003890AF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				194DF5AF24C54E09003890AF /* EventListController.swift */,
+				19DD6AE324C6DE76007A0A10 /* AddEventViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		19DD6ADF24C6DAE0007A0A10 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				194DF5B924C57C72003890AF /* CoreDataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		19DD6AE024C6DAE9007A0A10 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				194DF5BB24C6D851003890AF /* EventListViewModel.swift */,
+				19DD6AE724C6E4E7007A0A10 /* AddEventViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		19DD6C9224C7EA21007A0A10 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				19DD6C9324C7EA43007A0A10 /* AddEventTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		1CD595DABC62D6A0C777F631 /* Frameworks */ = {
@@ -88,7 +169,6 @@
 				E24E283515F7F16644121BCB /* Pods-CountDownApp.debug.xcconfig */,
 				5368AA7A36765C14AB8C3256 /* Pods-CountDownApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -189,9 +269,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				194DF59A24C19E4D003890AF /* ViewController.swift in Sources */,
+				19DD6C9424C7EA43007A0A10 /* AddEventTableViewCell.swift in Sources */,
+				19DD6AE624C6DF69007A0A10 /* UIViewController+Extension.swift in Sources */,
+				194DF5B224C5770D003890AF /* UIColor+Extension.swift in Sources */,
+				194DF5AA24C1A004003890AF /* AppCoordinator.swift in Sources */,
+				19DD6AE824C6E4E7007A0A10 /* AddEventViewModel.swift in Sources */,
 				194DF59624C19E4D003890AF /* AppDelegate.swift in Sources */,
+				194DF5B824C57BAA003890AF /* EventsApp.xcdatamodeld in Sources */,
 				194DF59824C19E4D003890AF /* SceneDelegate.swift in Sources */,
+				19DD6AE224C6DAFE007A0A10 /* AddEventCoordinator.swift in Sources */,
+				194DF5BA24C57C72003890AF /* CoreDataManager.swift in Sources */,
+				19DD6AE424C6DE76007A0A10 /* AddEventViewController.swift in Sources */,
+				194DF5BC24C6D851003890AF /* EventListViewModel.swift in Sources */,
+				194DF5B024C54E09003890AF /* EventListController.swift in Sources */,
+				194DF5AC24C54D21003890AF /* EventListCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,14 +428,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4T4BJ6N59B;
+				DEVELOPMENT_TEAM = 4R2P6E6S68;
 				INFOPLIST_FILE = CountDownApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.gov.sz.dev.CountDownApp;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gov.sz.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -357,14 +448,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4T4BJ6N59B;
+				DEVELOPMENT_TEAM = 4R2P6E6S68;
 				INFOPLIST_FILE = CountDownApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.gov.sz.dev.CountDownApp;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gov.sz.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -393,6 +484,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		194DF5B624C57BAA003890AF /* EventsApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				194DF5B724C57BAA003890AF /* EventsApp.xcdatamodel */,
+			);
+			currentVersion = 194DF5B724C57BAA003890AF /* EventsApp.xcdatamodel */;
+			path = EventsApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 194DF58A24C19E4C003890AF /* Project object */;
 }
